@@ -428,7 +428,7 @@ hr {
 @media(max-width:991px) {
     
     .container {
-        margin: 0 30px;
+        margin: 0 10px;
         padding: 50px 0;
     }
     .menu {
