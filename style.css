@@ -41,7 +41,7 @@ img {
     padding: 80px 0 0 0;
 }
 
-/*Logo*/
+/*Logo posición*/
 .menu {
     position: absolute;
     top: 0;
@@ -52,6 +52,7 @@ img {
     justify-content: space-between;
 }
 
+/*Logo color*/
 .logo {
     color: #fc89e3;
     font-size: 25px;
@@ -126,6 +127,7 @@ p {
         rgb(245, 86, 245)100%
     );
 }
+
 .about {
     padding: 100px 0;
     background-color: #24272E;
@@ -149,6 +151,7 @@ span {
     color: #fc89e3;
 }
 
+/*Subtitulo*/
 h2 {
     font-size: 35px;
     color: #FFFFFF;
@@ -421,11 +424,17 @@ hr {
         margin-top:16px;
     }
 
-
+/*Vista Mobile*/
 @media(max-width:991px) {
-
+    
+    .container {
+        margin: 0 30px;
+        padding: 50px 0;
+    }
     .menu {
         padding: 20px;
+        display: flex;
+        align-items: center;
     }
 
     .menu label {
