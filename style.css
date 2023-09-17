@@ -83,6 +83,12 @@ img {
     display: none;
 }
 
+p {
+    font-size: 17px;
+    color: #D4D4D4;
+    margin-bottom: 35px;
+}
+
 .menu-icono {
     width: 25px;
 }
@@ -107,11 +113,7 @@ img {
 }
 
 /*Contenido principal*/
-p {
-    font-size: 17px;
-    color: #D4D4D4;
-    margin-bottom: 35px;
-}
+
 
 /*Botones Información*/
 .btn-1 {
@@ -125,6 +127,7 @@ p {
         rgb(144, 2, 192)0%,
         rgb(245, 86, 245)100%
     );
+    
 }
 
 .about {
@@ -183,6 +186,13 @@ hr {
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 /*Ajuste de comentarios*/
